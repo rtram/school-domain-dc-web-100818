@@ -1,14 +1,12 @@
 class School 
   
-  ROSTER = {}
+  
   
   def initialize(school_name)
     @school= school_name
-    ROSTER
   end 
   
-  attr_accessor :school
-  attr_reader ROSTER
+  attr_accessor :roster, :school
   
   def add_student(student_name, grade)
     if @roster.keys.include? grade
