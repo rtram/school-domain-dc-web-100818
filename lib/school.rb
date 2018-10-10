@@ -5,7 +5,7 @@ class School
     @roster = {}
   end 
   
-  attr_accessor :roster
+  attr_accessor :roster, :school
   
   def add_student(student_name, grade)
     if @roster.keys.include? grade
