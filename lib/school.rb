@@ -7,7 +7,7 @@ class School
     ROSTER
   end 
   
-  attr_accessor :roster, :school
+  attr_accessor :school
   attr_reader ROSTER
   
   def add_student(student_name, grade)
